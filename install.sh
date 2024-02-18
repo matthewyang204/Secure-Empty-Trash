@@ -1,10 +1,9 @@
 #!/bin/sh
 cd ~/Downloads
 echo "Downloading..."
-curl -LO https://github.com/matthewyang204/Chase-Game/releases/download/1.0/Install.Chase.Game.1.0.dmg
+curl -LO https://github.com/matthewyang204/Secure-Empty-Trash/blob/main/Secure%20Empty%20Trash%20Installer.dmg
 echo "Installing..."
-hdiutil mount /Users/matthewyang/Downloads/Install.Chase.Game.1.0.dmg
-cp -R /Volumes/Chase\ Game/Chase\ Game.app ~/Desktop/Chase\ Game.app
-xattr -d com.apple.quarantine /Users/matthewyang/Desktop/Chase\ Game.app
+hdiutil mount ~/Downloads/Secure Empty Trash Installer.dmg
+cp -R /Volumes/Secure Empty Trash Installer /usr/local/bin/secureemptytrash
 hdiutil detach disk5
 echo "Installation complete"
