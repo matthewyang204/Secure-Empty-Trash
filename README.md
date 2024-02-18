@@ -2,7 +2,7 @@
 Adds back the "Secure Empty Trash" function lost many versions of macOS ago via the Terminal. For macOS only.
 
 Installation:
-1. Click on the install.sh file above and click the download button at the right-up corner, making sure that the file downloads to your Downloads folder
+1. Click on the install.sh file above and click the download button at the right-up corner, making sure that the file downloads to your Downloads folder.
 2. Run
 ```
 sh ~/Downloads/install.sh
