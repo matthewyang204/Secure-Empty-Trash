@@ -7,4 +7,5 @@ hdiutil mount ~/Downloads/Secure.Empty.Trash.Installer.dmg
 echo "Installing with root, enter password if prompted"
 sudo cp /Volumes/Secure Empty Trash Installer /usr/local/bin/secureemptytrash
 hdiutil detach disk5
+sudo rm -R ~/Downloads/Secure.Empty.Trash.Installer.dmg
 echo "Installation complete"
