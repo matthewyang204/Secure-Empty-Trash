@@ -4,7 +4,7 @@ echo "Downloading..."
 curl -LO https://github.com/matthewyang204/Secure-Empty-Trash/releases/download/Main/Secure.Empty.Trash.Installer.dmg
 echo "Installing..."
 hdiutil mount ~/Downloads/Secure.Empty.Trash.Installer.dmg
-echo "Installing with root, enter password if prompted"
+echo "Installing with sudo, enter password if prompted"
 sudo cp /Volumes/Secure\ Empty\ Trash\ Installer/secureemptytrash /usr/local/bin/secureemptytrash
 hdiutil detach disk5
 sudo rm -R ~/Downloads/Secure.Empty.Trash.Installer.dmg
