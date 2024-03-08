@@ -15,3 +15,9 @@ To use, run
 secureemptytrash
 ```
 in the terminal and follow the prompts. If it prompts for your password, enter it.
+
+To use the Logi Options+ Smart Action:
+1. Download the Extension.zip from the release called Main (it's the only release).
+2. Unzip the app.
+3. Create a folder in your Applications directory of your root drive, naming it Automator (if you haven't yet)
+4. Move the app there and activate the Logi Options+ Smart Action called "Secure Empty Trash".
